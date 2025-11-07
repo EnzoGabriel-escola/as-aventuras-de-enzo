@@ -14,3 +14,11 @@ button {
   color: yellow;
   font-family: "Bitcount Grid Single", system-ui;
 }
+
+.passo {
+display: none;
+}
+
+.passo.ativo {
+display:block;
+}

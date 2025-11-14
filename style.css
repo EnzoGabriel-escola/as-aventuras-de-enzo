@@ -24,5 +24,10 @@ display:block;
 }
 
 main{
+ text-aligm: center;
 max-width: 90%;
+}
+
+img{
+max-widht: 90%;
 }

@@ -18,107 +18,123 @@
     <button class= "btn-proximo" data-proximo="1">abrir o bau</button>
     <button class= "btn-proximo" data-proximo="2"> não abrir o bau</button>
   </div>
-  <div class="passo" id="passo-1">
-            <p>você encontra uma arma de fogo, algumas garrafas cheias de agua e um pouco de comida.</p>
-            <button class="btn-proximo" data-proximo="3">pegar tudo</button>
-            <button class="btn-proximo" data-proximo="4">não pega</button>
-        </div>
-  <div class="passo" id="passo-2">
-    <p> vc não abre o bau, assim vc decide adentrar a carroça.</p>
-    <button class= "btn-proximo" data-proximo="5">ficar</button>
+ <!-- PASSO 0 -->
+<div class="passo" id="passo-0">
+    <p>você está no meio do deserto do velho oeste americano, sozinho apenas com uma carroça quebrada com algumas coisas dentro, entre elas um baú.</p>
+    <button class="btn-proximo" data-proximo="1">abrir o baú</button>
+    <button class="btn-proximo" data-proximo="2">não abrir o baú</button>
+</div>
+
+<!-- PASSO 1 -->
+<div class="passo" id="passo-1">
+    <p>você encontra uma arma de fogo, algumas garrafas cheias de água e um pouco de comida.</p>
+    <button class="btn-proximo" data-proximo="3">pegar tudo</button>
+    <button class="btn-proximo" data-proximo="4">não pegar</button>
+</div>
+
+<!-- PASSO 2 -->
+<div class="passo" id="passo-2">
+    <p>você não abre o baú e decide adentrar a carroça.</p>
+    <button class="btn-proximo" data-proximo="5">ficar</button>
     <button class="btn-proximo" data-proximo="6">não ficar</button>
-  </div>
- <div class="passo" id="passo-3">
-   <img src="img/cenario-passo5.jpeg" alt=
-            <p>vc os pega, ficando na carroça até de noite.</p>
-            <button class="btn-proximo" data-proximo="7">fazer uma fogueira</button>
-        </div>
+</div>
 
-        <div class="passo" id="passo-4">
-            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
-            <p>vc sai, andando pelo deserto até ficar de noite, acabando no processo por encontrar uma igreja abandonada.</p>
-        </div>
+<!-- PASSO 3 -->
+<div class="passo" id="passo-3">
+    <p>você os pega, ficando na carroça até de noite.</p>
+    <button class="btn-proximo" data-proximo="7">fazer uma fogueira</button>
+</div>
 
-        <div class="passo" id="passo-5">
-            <p>Nas igrejas de Olinda, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
-                pista está no Amazonas.</p>
-            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
-        </div>
+<!-- PASSO 4 -->
+<div class="passo" id="passo-4">
+    <p>você não os pega, ficando até de noite na carroça desarmado, já não acordando mais para o outro dia.</p>
+</div>
 
-        <div class="passo" id="passo-6">
-            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
-            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
-        </div>
+<!-- PASSO 5 -->
+<div class="passo" id="passo-5">
+    <p>você fica na carroça até ficar de noite.</p>
+    <button class="btn-proximo" data-proximo="8">fazer uma fogueira</button>
+</div>
 
-        <div class="passo" id="passo-7">
-            <p>No Amazonas, a busca pela cidade perdida se intensifica. Você se depara com um rio bifurcado.</p>
-            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
-            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
-        </div>
+<!-- PASSO 6 -->
+<div class="passo" id="passo-6">
+    <p>você sai, andando pelo deserto até ficar de noite, acabando no processo por encontrar uma igreja abandonada.</p>
+    <button class="btn-proximo" data-proximo="9">entrar na igreja</button>
+</div>
 
-        <div class="passo" id="passo-8">
-            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
-            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
-        </div>
+<!-- PASSO 7 -->
+<div class="passo" id="passo-7">
+    <p>você acaba ouvindo barulhos no meio do mato ao algo de fora.</p>
+    <button class="btn-proximo" data-proximo="10">vai ver o que é</button>
+    <button class="btn-proximo" data-proximo="11">continuar dentro da carroça</button>
+</div>
 
-        <div class="passo" id="passo-9">
-            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
-                cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
-        </div>
+<!-- PASSO 8 -->
+<div class="passo" id="passo-8">
+    <p>você faz a fogueira e adormece.</p>
+    <button class="btn-proximo" data-proximo="16">acordar</button>
+</div>
 
-        <div class="passo" id="passo-10">
-            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
-                aqui.</p>
-            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
-        </div>
+<!-- PASSO 9 -->
+<div class="passo" id="passo-9">
+    <p>você entra na igreja abandonada, que surpreendentemente está bem iluminada.</p>
+    <button class="btn-proximo" data-proximo="12">focar na igreja</button>
+    <button class="btn-proximo" data-proximo="13">sair da igreja</button>
+</div>
 
-        <div class="passo" id="passo-11">
-            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
-            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
-                este lugar</p>
-        </div>
+<!-- PASSO 10 -->
+<div class="passo" id="passo-10">
+    <p>você sai da carroça, vendo olhos com um vermelho brilhante na escuridão, uma besta pronta para atacar.</p>
+    <button class="btn-proximo" data-proximo="14">atirar na besta</button>
+</div>
 
-        <div class="passo" id="passo-12">
-            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
-                que levam à cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
-        </div>
-  <div class="passo" id="passo-13">
-            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
-                que levam à cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
-        </div>
-   <div class="passo" id="passo-14">
-            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
-                que levam à cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
-        </div>
-   <div class="passo" id="passo-15">
-            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
-                que levam à cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
-        </div>
-   <div class="passo" id="passo-16">
-            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
-                que levam à cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
-        </div>
-  <div class="passo" id="passo-17">
-            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
-                que levam à cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
-        </div>
-   <div class="passo" id="passo-18">
-            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
-                que levam à cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
-        </div>
-</main>
-<script src= "script.js"><script>
-    
-  </body>
-</html>
+<!-- PASSO 11 -->
+<div class="passo" id="passo-11">
+    <p>você permanece na carroça, logo a parte da carroça que quebra, com uma besta entrando à força na carroça.</p>
+    <button class="btn-proximo" data-proximo="15">se afastar da besta</button>
+</div>
 
-    
-       
+<!-- PASSO 12 -->
+<div class="passo" id="passo-12">
+    <p>você fica na igreja, achando um quarto no local com uma cama velha, então cansado, você dorme.</p>
+    <button class="btn-proximo" data-proximo="16">acordar</button>
+</div>
+
+<!-- PASSO 13 -->
+<div class="passo" id="passo-13">
+    <p>você sai da igreja, logo é atingido por um ataque surpresa. Você só acorda pelo amanhecer.</p>
+    <button class="btn-proximo" data-proximo="16">acordar</button>
+</div>
+
+<!-- PASSO 14 -->
+<div class="passo" id="passo-14">
+    <p>você atira no animal, conseguindo milagrosamente abater o animal, que cai no chão, morto.</p>
+</div>
+
+<!-- PASSO 15 -->
+<div class="passo" id="passo-15">
+    <p>você se afasta da besta, a criatura olha pra você como besta, pronta para atacar.</p>
+</div>
+
+<!-- PASSO 16 -->
+<div class="passo" id="passo-16">
+    <p>você acorda, está de manhã, você sai do quarto e fica no centro da igreja.</p>
+    <button class="btn-proximo" data-proximo="17">rezar</button>
+</div>
+
+<!-- PASSO 17 -->
+<div class="passo" id="passo-17">
+    <p>você reza, se ajoelhando perante um altar ali perto do centro da igreja, você não sabe por quem está rezando, mas mesmo assim o faz.</p>
+    <button class="btn-proximo" data-proximo="18">deseja continuação da água</button>
+    <button class="btn-proximo" data-proximo="19">reza por transcendência</button>
+</div>
+
+<!-- PASSO 18 -->
+<div class="passo" id="passo-18">
+    <p>você se assusta vendo como a igreja se enche de si até de água e corre, assim você é engolido e não acorda para outro dia.</p>
+</div>
+
+<!-- PASSO 19 -->
+<div class="passo" id="passo-19">
+    <p>você desmaia, sentindo o seu corpo, mente e alma assumindo uma nova forma, uma nova besta surgindo.</p>
+</div>
